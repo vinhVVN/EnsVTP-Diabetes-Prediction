@@ -1,0 +1,23 @@
+﻿docs
+ensemble
+scripts
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Git backup
+.git_backup/
