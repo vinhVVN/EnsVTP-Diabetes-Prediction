@@ -1,5 +1,7 @@
 ﻿# 🩺 EnsVTP: Diabetes Prediction System - AI Lab
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=vinhVVN/EnsVTP-Diabetes-Prediction&branch=main&mainModule=streamlit/app.py)
+
 Chào mừng bạn đến với **Diabetes Prediction System**, một giải pháp trí tuệ nhân tạo toàn diện được thiết kế để hỗ trợ sàng lọc sớm bệnh lý đái tháo đường. Dự án kết hợp các mô hình học máy tiên tiến với giao diện người dùng hiện đại, cung cấp cái nhìn minh bạch từ dữ liệu thô đến kết luận chẩn đoán.
 
 ---
