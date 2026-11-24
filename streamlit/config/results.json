@@ -1,0 +1,73 @@
+[
+    {
+        "experiment": "1. Full Ensemble (Baseline v3 Ultimate)",
+        "f1": 0.768416409351566,
+        "precision": 0.8753768844221106,
+        "recall": 0.684748427672956,
+        "auc": 0.9677330093024369,
+        "threshold": 0.8020408163265307,
+        "weights": {
+            "Logistic Regression": 0.32383921624087847,
+            "Decision Tree": 0.3365274020024915,
+            "SVM": 0.33963338175663005
+        }
+    },
+    {
+        "experiment": "2. Hard Voting (Majority)",
+        "f1": 0.647870425914817,
+        "precision": 0.5237633365664404,
+        "recall": 0.8490566037735849,
+        "auc": 0.9677330093024369,
+        "threshold": "N/A (Hard Voting)",
+        "weights": "N/A (Hard Voting)"
+    },
+    {
+        "experiment": "3. Bagging",
+        "f1": 0.78267223456242,
+        "precision": 0.85478876404494382,
+        "recall": 0.7217238993710691,
+        "auc": 0.9684395401391778,
+        "threshold": 0.8020408163265307,
+        "weights": {
+            "Logistic Regression": 0.3026819740334073,
+            "Decision Tree": 0.3334784418852673,
+            "SVM": 0.36383958408132533
+        }
+    },
+    {
+        "experiment": "4. No SVM (LR + DT)",
+        "f1": 0.7675401521555367,
+        "precision": 0.829981718464351,
+        "recall": 0.7138364779874213,
+        "auc": 0.9656806143434489,
+        "threshold": 0.8346938775510204,
+        "weights": {
+            "Logistic Regression": 0.49039307453535075,
+            "Decision Tree": 0.5096069254646491
+        }
+    },
+    {
+        "experiment": "5. No Threshold Tuning (0.5 Default)",
+        "f1": 0.6581895246745383,
+        "precision": 0.535204332840965,
+        "recall": 0.8545597484276729,
+        "auc": 0.9677330093024369,
+        "threshold": 0.5,
+        "weights": {
+            "Logistic Regression": 0.32383921624087847,
+            "Decision Tree": 0.3365274020024915,
+            "SVM": 0.33963338175663005
+        }
+    },
+    {
+        "experiment": "6. Single Model (SVM Only)",
+        "f1": 0.7538048343777977,
+        "precision": 0.8752598752598753,
+        "recall": 0.6619496855345912,
+        "auc": 0.9493469462180453,
+        "threshold": 0.8836734693877552,
+        "weights": {
+            "SVM": 1.0
+        }
+    }
+]
