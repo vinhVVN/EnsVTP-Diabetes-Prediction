@@ -16,6 +16,9 @@ Chào mừng bạn đến với **Diabetes Prediction System**, một giải ph�
 
 ## 🎨 Trải nghiệm giao diện Dashboard
 
+<img width="2153" height="1049" alt="image" src="https://github.com/user-attachments/assets/92cf47c4-1714-4371-b344-0cf0a26f32d9" />
+
+
 Hệ thống được tổ chức thành 4 phân vùng chính:
 
 ### 🏠 1. Tổng quan Dự án
